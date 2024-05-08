@@ -4,8 +4,7 @@ jobs:
     runs-on: ubuntu-latest
     container: node:16
     steps:
-    - name: Print Something
-      - run: echo "Sebastián Carrillo Cuevas"
-      - run: echo "739460"
-      - run: node --version
+      run: echo "Sebastián Carrillo Cuevas"
+      run: echo "739460"
+      run: node --version
       
